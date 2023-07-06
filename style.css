@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.container{
+    min-height: 100vh;
+    background: #08071d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+    background: url("img1.jpeg") no-repeat center center/cover;
+  
+
+
+}
+form{
+    width: 90%;
+    max-width: 600px;
+    border-radius: 15px;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+    padding: 2vw  4vw;
+
+
+
+}
+h2{
+    text-align: center;
+    color:#fff;
+    font-weight: 500;
+    margin-bottom: 40px;
+    font-size: 30px;
+    
+   
+}
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+input, textarea{
+    width: 100%;
+    padding: 15px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: rgba(6, 25, 58, 0.244);
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+    border-radius: 5px;
+
+}
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text; 
+    transition: 0.2s;
+}
+
+button{
+    background: rgba(21, 14, 82, 0.436);
+    color: #fff;
+    font-size: 15px;
+    border: 0px;
+    outline: none;
+    cursor: pointer;
+    border-radius:50px;
+    
+    padding:15px;
+    width: 100%;
+   
+    padding-left: 25%;
+    padding-right: 25%;    
+    border: 1px solid #fff;
+} 
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row .input-group{
+    flex-basis: 48%;
+}
+
+#msg{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(91, 216, 24);
+    font-size: 25px;
+
+  
+}
+ 
+
+
+
+
+   
+    
+    
+    
+    
+
+
+    
+
